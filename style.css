@@ -5,7 +5,8 @@
 body{
     overflow-x: hidden;
     font-family: 'Lato',sans-serif;
-    color: #505962;
+    color:  #2101D9;
+    background: rgb(12, 0, 19);
 }
 
 .offset:before{
@@ -20,7 +21,7 @@ body{
     font-weight:700;
     font-size: .9rem;
     letter-spacing: .15rem;
-    background: rgba(0,0,0,0.6)!important;   
+    background: rgba(0,0,0,1)!important;   
 }
 .dropdown-menu{
     text-transform: uppercase;
@@ -31,7 +32,7 @@ body{
 }
 
 .navbar-brand img{
-    height: 2rem;
+    height: 4rem;
 }
 
 .navbar-nav li{
@@ -49,11 +50,15 @@ a.navbar-link{
 
 
 .navbar-dark .navbar-nav .navbar-link.acive,.navbar-dark .navbar-nav .nav-link:hover{
-    color: #1ebba3;
+    color: #2101D9;
 }
 
 .dropdown{
     width: 60%;
+}
+
+.width{
+    width: 110px !important;
 }
 /*-- Landing Page--*/
 .home-inner{
@@ -109,13 +114,13 @@ a.navbar-link{
     font-size: 1.2rem;
     padding: 0.6rem 1.2rem;
     margin: 1rem;
-    background-color: #1ebba3;
-    border-color: #1ebba3;
+    background-color: #2101D9;
+    border-color:  #2101D9;
 }
 
 .btn-secondary:hover{
-    background-color: #189582;
-    border-color: #1ebba3;
+    background-color: rgb(28, 3, 172);
+    border-color:  #2101D9;
 }
 
 /*--Feature--*/
@@ -124,6 +129,7 @@ a.navbar-link{
     margin-bottom: 0;
     padding: 2rem 0 3.5rem;
     border-radius: 0;
+    background: rgb(26, 2, 26);
 }
 
 h3.heading{
@@ -135,12 +141,12 @@ h3.heading{
 .heading-underline{
     width: 3rem;
     height: 0.2rem;
-    background-color:  #1ebba3;
+    background-color: #2101D9;
     margin: 0 auto 2rem;
 }
 
 .feature svg.svg-inline--fa{
-    color:  #1ebba3;
+    color:   #2101D9;
 }
 
 .feature h3{
@@ -155,7 +161,7 @@ h3.heading{
 
 /*--Resources--*/
 .fixed{
-    background-image: url(apple.png);
+    background-image: url(test1.gif);
     z-index: -1;
 }
 .dark{
@@ -181,24 +187,24 @@ h3.heading{
 }
 
 blockquote svg.svg-inline--fa{
-    color:  #1ebba3;
+    color:   #2101D9;
     margin: 1rem;
 }
 
 .clients-hr{
-    border-top: .5rem solid #1ebba3;
+    border-top: .5rem solid  #2101D9;
 }
 
 /*--contact--*/
 footer{
-    background-color: #40474e;
+    background-color: #000;
     color: white;
     padding: 2rem 0 2rem;
     margin-top: 1rem;
 }
 
 footer img{
-    height: 3rem;
+    height: 6rem;
     margin: 1.5rem 0;
 }
 
@@ -212,7 +218,7 @@ footer svg.svg-inline--fa{
 }
 
 footer svg.svg-inline--fa:hover{
-    color:  #1ebba3!important;
+    color:   #2101D9!important;
 }
 
 hr.socket{
